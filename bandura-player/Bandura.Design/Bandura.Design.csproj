@@ -46,9 +46,18 @@
   <ItemGroup>
     <Content Include="Default\Project\readme.txt" />
     <Content Include="Description.txt" />
+    <Content Include="Layout\Default\PlayterControlWindow.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Default\Output\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Schemes\ButtonSchema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemes\WindowSchema.xsd">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

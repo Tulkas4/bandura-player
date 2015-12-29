@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bandura.Design", "Bandura.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vk-api-module", "..\vk-api\vk-api-module\vk-api-module.csproj", "{4F5A32F7-F7F9-4C0E-A98E-325180D8F148}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bandura.ViewModel", "Bandura.ViewModel\Bandura.ViewModel.csproj", "{7DBD8C0D-74A9-4090-BE8D-CF455E7A0385}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{4F5A32F7-F7F9-4C0E-A98E-325180D8F148}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F5A32F7-F7F9-4C0E-A98E-325180D8F148}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F5A32F7-F7F9-4C0E-A98E-325180D8F148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DBD8C0D-74A9-4090-BE8D-CF455E7A0385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DBD8C0D-74A9-4090-BE8D-CF455E7A0385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DBD8C0D-74A9-4090-BE8D-CF455E7A0385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DBD8C0D-74A9-4090-BE8D-CF455E7A0385}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
