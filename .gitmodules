@@ -1,0 +1,4 @@
+[submodule "vk-api"]
+	path = vk-api
+	url = https://github.com/antonmashko/vk-api.git
+	branch = develop
