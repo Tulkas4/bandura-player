@@ -1,0 +1,1 @@
+﻿Current project used as VIEW for Bandura desktop app

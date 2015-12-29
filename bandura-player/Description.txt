@@ -1,0 +1,31 @@
+-------------BANDURA-PLAYER---------------------
+Open soure application for everyone
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v 1.0
+User can:
+--------Player options-----------------
+-contol play, pause, stop, next, previous audio
+-scroll audio
+-scroll volume
+-close hide/show player
+
+--------Playlist options---------------
+-listen local music;
+-connect to vk and get user audio list;
+-save vk credentials
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+PROJECT BUILD ON MVVM PATTERN
+
+-------------INSTUCTION----------------
+CREATE VIEW:
+#
+#
+#
+
+INCLUDE MODEL AND ADD-INS:
+#
+#
+#
+
