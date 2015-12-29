@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle( "bandura-player" )]
-[assembly: AssemblyDescription( "" )]
+[assembly: AssemblyTitle( "Bandura" )]
+[assembly: AssemblyDescription( "Open source product" )]
 [assembly: AssemblyConfiguration( "" )]
-[assembly: AssemblyCompany( "" )]
-[assembly: AssemblyProduct( "bandura-player" )]
+[assembly: AssemblyCompany( "A&D solutions" )]
+[assembly: AssemblyProduct( "Bandura desktop app" )]
 [assembly: AssemblyCopyright( "Copyright ©  2015" )]
 [assembly: AssemblyTrademark( "" )]
 [assembly: AssemblyCulture( "" )]
