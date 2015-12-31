@@ -16,6 +16,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vk-api-module", "..\vk-api\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bandura.ViewModel", "Bandura.ViewModel\Bandura.ViewModel.csproj", "{7DBD8C0D-74A9-4090-BE8D-CF455E7A0385}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bandura.Audio", "Bandura.Audio\Bandura.Audio.csproj", "{77A3FAD8-0F76-48CA-B3B1-A148D97ED576}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{98E3D314-4BC3-493F-904E-2F6698B06A07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioLibTesting", "AudioLibTesting\AudioLibTesting.csproj", "{4CD1548A-60E6-4E4C-B945-A706E49F24FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bandura.Audio.Module", "Bandura.Audio.Module\Bandura.Audio.Module.csproj", "{EECC0C67-5748-4733-B3B6-78FFA566AB89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,8 +46,23 @@ Global
 		{7DBD8C0D-74A9-4090-BE8D-CF455E7A0385}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DBD8C0D-74A9-4090-BE8D-CF455E7A0385}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DBD8C0D-74A9-4090-BE8D-CF455E7A0385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77A3FAD8-0F76-48CA-B3B1-A148D97ED576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A3FAD8-0F76-48CA-B3B1-A148D97ED576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A3FAD8-0F76-48CA-B3B1-A148D97ED576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A3FAD8-0F76-48CA-B3B1-A148D97ED576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CD1548A-60E6-4E4C-B945-A706E49F24FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD1548A-60E6-4E4C-B945-A706E49F24FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD1548A-60E6-4E4C-B945-A706E49F24FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD1548A-60E6-4E4C-B945-A706E49F24FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EECC0C67-5748-4733-B3B6-78FFA566AB89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EECC0C67-5748-4733-B3B6-78FFA566AB89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EECC0C67-5748-4733-B3B6-78FFA566AB89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EECC0C67-5748-4733-B3B6-78FFA566AB89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4CD1548A-60E6-4E4C-B945-A706E49F24FE} = {98E3D314-4BC3-493F-904E-2F6698B06A07}
 	EndGlobalSection
 EndGlobal
