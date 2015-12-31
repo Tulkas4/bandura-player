@@ -17,6 +17,25 @@ namespace Bandura.Audio {
             }
         }
 
+        public bool Loop {
+            get {
+                throw new NotImplementedException();
+            }
+
+            set {
+                throw new NotImplementedException();
+            }
+        }
+
+        public bool AutoRepeat {
+            get {
+                throw new NotImplementedException();
+            }
+
+            set {
+                throw new NotImplementedException();
+            }
+        }
 
         public void Order() {
             //throw new NotImplementedException();
@@ -35,6 +54,14 @@ namespace Bandura.Audio {
 
         public IEnumerator<T> GetEnumerator() {
             return playlist.GetEnumerator();
+        }
+
+        public Audio Next() {
+            throw new NotImplementedException();
+        }
+
+        public Audio Previouse() {
+            throw new NotImplementedException();
         }
     }
 }

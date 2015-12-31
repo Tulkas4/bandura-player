@@ -20,12 +20,14 @@ namespace AudioLibTesting {
 
         static void Main( string[] args ) {
             string location = "http://cs7-5v4.vk-cdn.net/p8/46090c141cdf7e.mp3?extra=6SkHWYB4TCwOFOX_oFZ2FeA8ksHlx37p6TJYsEQCgcKfrNDiPuv9STgbrT_e0PzGEIsBQTg2X3e9a4dkhoi_L5UySnz0aIyU";
-            int read = 0;
-            WebResponse response;
-            Stream responseStream;
-            StartBuffering( location, out read, out response, out responseStream );
-            Thread t = new Thread( PlayAudio );
-            t.Start();
+            AudioModule a = new AudioModule();
+            a.Play( location );
+            //int read = 0;
+            //WebResponse response;
+            //Stream responseStream;
+            //StartBuffering( location, out read, out response, out responseStream );
+            //Thread t = new Thread( PlayAudio );
+            //t.Start();
             //EndBuffering( read, response, responseStream );
         }
 
@@ -77,12 +79,6 @@ namespace AudioLibTesting {
         //    }
 
         //}
-
-
-
-        
-
-
 
 
 
