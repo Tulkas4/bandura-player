@@ -19,9 +19,15 @@ namespace AudioLibTesting {
 
 
         static void Main( string[] args ) {
-            string location = "http://cs7-5v4.vk-cdn.net/p8/46090c141cdf7e.mp3?extra=6SkHWYB4TCwOFOX_oFZ2FeA8ksHlx37p6TJYsEQCgcKfrNDiPuv9STgbrT_e0PzGEIsBQTg2X3e9a4dkhoi_L5UySnz0aIyU";
-            AudioModule a = new AudioModule();
-            a.Play( location );
+            string location = //@"C:\Users\amashko\Desktop\dc8af947b6d4c8.mp3";
+                              //"http://cs7-1v4.vk-cdn.net/p17/a315d046d29503.mp3?extra=v7vYtg_GxqgjbGZIANK86RRLhCGLxnv6mpKPFIgggcL4IJFvUHXPQ2UnPG-vTAZ97gXzmb084Wklm0ZoX7BtBNoKTJhfl3eo,229";
+                "http://cs7-5v4.vk-cdn.net/p5/dc8af947b6d4c8.mp3?extra=rmtHB9KnzsyZ_iLmkiP1T91RQwS555t6D2kEf-a_nD9q6Bv9FI_eDssHEMDo6Na9wYZldChMWgqPMe15uzOzlniWSLFceU1AXw,210";
+            using( AudioModule a = new AudioModule( location ) ) {
+                a.Play();
+                //a.Play();
+                //a.Play();
+            }
+            Console.ReadKey( true );
             //int read = 0;
             //WebResponse response;
             //Stream responseStream;

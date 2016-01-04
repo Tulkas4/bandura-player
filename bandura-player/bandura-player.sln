@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioLibTesting", "AudioLib
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bandura.Audio.Module", "Bandura.Audio.Module\Bandura.Audio.Module.csproj", "{EECC0C67-5748-4733-B3B6-78FFA566AB89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Id3Lib", "..\ID3Lib\Id3Lib.csproj", "{4C0E405B-FBE5-4949-8953-0B4AEB0D22B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,11 +60,16 @@ Global
 		{EECC0C67-5748-4733-B3B6-78FFA566AB89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EECC0C67-5748-4733-B3B6-78FFA566AB89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EECC0C67-5748-4733-B3B6-78FFA566AB89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C0E405B-FBE5-4949-8953-0B4AEB0D22B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0E405B-FBE5-4949-8953-0B4AEB0D22B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0E405B-FBE5-4949-8953-0B4AEB0D22B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0E405B-FBE5-4949-8953-0B4AEB0D22B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4CD1548A-60E6-4E4C-B945-A706E49F24FE} = {98E3D314-4BC3-493F-904E-2F6698B06A07}
+		{4C0E405B-FBE5-4949-8953-0B4AEB0D22B8} = {98E3D314-4BC3-493F-904E-2F6698B06A07}
 	EndGlobalSection
 EndGlobal
