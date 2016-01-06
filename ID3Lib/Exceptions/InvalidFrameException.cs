@@ -10,6 +10,12 @@ namespace Id3Lib.Exceptions
     [Serializable]
     public class InvalidFrameException : InvalidStructureException
 	{
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="info"></param>
+        /// <param name="context"></param>
         protected InvalidFrameException(SerializationInfo info, StreamingContext context)
             : base(info, context)
         {

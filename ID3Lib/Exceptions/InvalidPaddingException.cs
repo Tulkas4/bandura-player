@@ -17,6 +17,12 @@ namespace Id3Lib.Exceptions
         uint _measured;
         uint _specified;
 
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="info"></param>
+        /// <param name="context"></param>
         protected InvalidPaddingException(SerializationInfo info, StreamingContext context)
             : base(info, context)
         {
@@ -24,6 +30,12 @@ namespace Id3Lib.Exceptions
             _specified = info.GetUInt32("specified");
         }
 
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="info"></param>
+        /// <param name="context"></param>
         [SecurityPermissionAttribute(SecurityAction.Demand, SerializationFormatter = true)]
         public override void GetObjectData(SerializationInfo info, StreamingContext context)
         {

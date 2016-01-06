@@ -16,6 +16,13 @@ namespace Id3Lib.Exceptions
     [Serializable]
     public class InvalidStructureException : Exception
     {
+
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="info"></param>
+        /// <param name="context"></param>
         protected InvalidStructureException(SerializationInfo info, StreamingContext context)
             : base(info, context)
         {

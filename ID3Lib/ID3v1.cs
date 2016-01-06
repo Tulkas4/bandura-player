@@ -302,10 +302,13 @@ namespace Id3Lib
             int index = Memory.FindByte(tag, 0x00, 0);
             return index < 0 ? encoding.GetString(tag) : encoding.GetString(tag, 0, index);
         }
+
+
+
         /// <summary>
         /// Load tag from stream
         /// </summary>
-        /// <param name="src">Binary stream to load</param>
+        /// <param name="stream"></param>
         public void Deserialize(Stream stream)
         {
             BinaryReader reader = new BinaryReader(stream);

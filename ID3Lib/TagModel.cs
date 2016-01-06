@@ -49,6 +49,12 @@ namespace Id3Lib
             get { return _tagExtendedHeader; }
         }
 
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="index"></param>
+        /// <param name="item"></param>
         protected override void InsertItem(int index, FrameBase item)
         {
             if (item == null)
@@ -58,6 +64,12 @@ namespace Id3Lib
             base.InsertItem(index, item);
         }
 
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="index"></param>
+        /// <param name="item"></param>
         protected override void SetItem(int index, FrameBase item)
         {
             if (item == null)
@@ -80,6 +92,8 @@ namespace Id3Lib
             foreach (var frame in frames)
                 Add(frame);
         }
+
+
 
         /// <summary>
         /// predict the size of the frames on disk (without any padding)

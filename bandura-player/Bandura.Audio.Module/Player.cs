@@ -11,33 +11,23 @@ namespace Bandura.Audio.Module {
     public class Player : IPlayer {
 
 
-        private WMPLib.WindowsMediaPlayer player = new WMPLib.WindowsMediaPlayer();
-
-
-        protected WMPLib.IWMPControls Controls {
-            get {
-                return player.controls;
-            }
-        }
-
-
         public Player( ) {
 
         }
 
 
         public void Pause() {
-            this.Controls.pause();
+            //this.Controls.pause();
         }
 
 
         public void Play() {
-            this.Controls.play();
+            //this.Controls.play();
         }
 
 
         public void Stop() {
-            this.Controls.stop();
+            //this.Controls.stop();
         }
     }
 }

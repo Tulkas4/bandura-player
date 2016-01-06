@@ -10,6 +10,13 @@ namespace Id3Lib.Exceptions
     [Serializable]
     public class InvalidTagException : InvalidStructureException
     {
+
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="info"></param>
+        /// <param name="context"></param>
         protected InvalidTagException(SerializationInfo info, StreamingContext context)
             : base(info, context)
         {

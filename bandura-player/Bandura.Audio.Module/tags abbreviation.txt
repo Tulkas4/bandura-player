@@ -1,0 +1,14 @@
+﻿=======================================================================================================
+Album		TALB	Get the album title.
+Artist		TPE1	Get the lead performer/soloist.
+Comment		COMM	Get the associated picture as System.Drawing.Image, or null reference
+Composer	TCOM	Get the composer.
+Disc		TPOS	Get the disc number.
+Genre		TCON	Get the track genre.
+Length		TLEN	Get the length of the audio file in milliseconds, represented as a numeric string.
+Lyrics		USLT	Get the lyrics.
+Picture		APIC	Get the associated picture as System.Drawing.Image, or null reference
+Title		TIT2	Get the title / song name / content description.
+Track		TRCK	Get the track number.
+Year		TYER	Get the production year.
+========================================================================================================

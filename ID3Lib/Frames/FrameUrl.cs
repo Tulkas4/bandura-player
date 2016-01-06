@@ -38,6 +38,10 @@ namespace Id3Lib.Frames
             get { return _uri.AbsoluteUri; }
         }
 
+
+        /// <summary>
+        /// 
+        /// </summary>
         public Uri Uri
         {
             set

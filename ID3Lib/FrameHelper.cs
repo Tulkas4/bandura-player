@@ -61,7 +61,7 @@ namespace Id3Lib
         /// </summary>
         /// <param name="frameId">type of frame</param>
         /// <param name="flags">frame flags</param>
-        /// <param name="frame">binary frame</param>
+        /// <param name="buffer"></param>
         /// <returns>Frame of tag type</returns>
         public FrameBase Build(string frameId, ushort flags, byte[] buffer)
         {
@@ -122,6 +122,7 @@ namespace Id3Lib
         /// Build a binary data frame form the frame object.
         /// </summary>
         /// <param name="frame">ID3 Frame</param>
+        /// <param name="flags"></param>
         /// <returns>binary frame representation</returns>
         public byte[] Make(FrameBase frame, out ushort flags)
         {

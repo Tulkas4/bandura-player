@@ -7,14 +7,16 @@ using System.Threading;
 namespace AudioLibTesting {
 
 
-    internal class AudioModule : IDisposable {
+    internal class AudioPlayModule : IDisposable {
 
+        //for web audio location
         private WebResponse response;
         private Stream webStream;
         private volatile int postion = -1;
 
-        protected readonly WaveOut wave = new WaveOut( WaveCallbackInfo.FunctionCallback() );
+
         protected readonly AutoResetEvent wait;
+
 
         internal const int BLOCK_SIZE = 32768;
         internal static readonly object locker = new object();
@@ -35,12 +37,12 @@ namespace AudioLibTesting {
         public string Location { get; private set; }
 
 
-        public AudioModule( string location ) : this( location, new AutoResetEvent( true ) ) {
+        public AudioPlayModule( string location ) : this( location, new AutoResetEvent( true ) ) {
 
         }
 
 
-        protected AudioModule( string location, AutoResetEvent wait ) {
+        protected AudioPlayModule( string location, AutoResetEvent wait ) {
             Uri result = null;
             if( this.IsCached = this.IsLocal = !Uri.TryCreate( location, UriKind.Absolute, out result ) ) {
                 this.Audio = new FileStream( location, FileMode.Open, FileAccess.Read, FileShare.None );
@@ -154,7 +156,7 @@ namespace AudioLibTesting {
             if(!this.IsDisposed) {
                 this.KillResponse();
                 this.Audio.Close();
-                this.wave.Dispose();
+                //this.wave.Dispose();
                 this.IsDisposed = true;
             }
         }

@@ -10,6 +10,13 @@ namespace Id3Lib.Exceptions
     [Serializable]
     public class TagNotFoundException : Exception
 	{
+
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="info"></param>
+        /// <param name="context"></param>
         protected TagNotFoundException(SerializationInfo info, StreamingContext context)
             : base(info, context)
         {
