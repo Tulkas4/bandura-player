@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PlayerSchema"
+    targetNamespace="http://tempuri.org/PlayerSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/PlayerSchema.xsd"
+    xmlns:mstns="http://tempuri.org/PlayerSchema,xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="Player">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Play" type="ImageButtonControl" maxOccurs="1" minOccurs="1"/>
+        <xs:element name="Pause" type="ImageButtonControl" maxOccurs="1" minOccurs="0"/>
+        <xs:element name="Stop" type="ImageButtonControl" maxOccurs="1" minOccurs="1"/>
+        <xs:element name="Next" type="ImageButtonControl" maxOccurs="1" minOccurs="1"/>
+        <xs:element name="Loop" type="ImageButtonControl" maxOccurs="1" minOccurs="1"/>
+        <xs:element name="Shuffle" type="ImageButtonControl" maxOccurs="1" minOccurs="1"/>
+        <xs:element name="Previous" type="ImageButtonControl" maxOccurs="1" minOccurs="1"/>
+        <xs:element name="Close" type="ImageButtonControl" maxOccurs="1" minOccurs="1"/>
+        <xs:element name="Hide" type="ImageButtonControl" maxOccurs="1" minOccurs="1"/>
+        <xs:element name="Pin" type="ImageButtonControl" maxOccurs="1" minOccurs="1"/>
+        <xs:element name="Settings" type="ImageButtonControl" maxOccurs="1" minOccurs="1"/>
+        <xs:element name="Progress" type="GraphicControl" maxOccurs="1" minOccurs="1"/>
+        <xs:element name="Volume" type="GraphicControl" maxOccurs="1" minOccurs="1"/>
+        <xs:element name="PictureTitle" type="ImageButtonControl" maxOccurs="1" minOccurs="1"/>
+        <xs:element name="Artist" type="TextControl" maxOccurs="1" minOccurs="1"/>
+        <xs:element name="Song" type="TextControl" maxOccurs="1" minOccurs="1"/>
+        <xs:element name="Genre" type="TextControl" maxOccurs="1" minOccurs="1"/>
+        <xs:element name="PlayTime" type="TextControl" maxOccurs="1" minOccurs="1"/>
+        <xs:element name="Title" type="TextControl" maxOccurs="1" minOccurs="1"/>
+      </xs:sequence>
+      <xs:attribute name="x" type="xs:int" use="optional" default="0"/>
+      <xs:attribute name="y" type="xs:int" use="optional" default="0"/>
+      <xs:attribute name="width" type="xs:int" use="optional" default="100"/>
+      <xs:attribute name="height" type="xs:int" use="optional" default="100"/>
+      <xs:attribute name="visible" type="xs:boolean" use="optional" default="true"/>
+      <xs:attribute name="roundAngle" type="xs:boolean" use="optional" default="false"/>
+      <xs:attribute name="shadow" type="xs:boolean" use="optional" default="true"/>
+    </xs:complexType>
+  </xs:element>
+
+
+  <xs:complexType name="ImageButtonControl">
+    <xs:attribute name="x" type="xs:int" use="required"/>
+    <xs:attribute name="y" type="xs:int" use="required"/>
+    <xs:attribute name="states" type="xs:short" use="optional" default="3"/>
+    <xs:attribute name="visible" type="xs:boolean" use="optional" default="true"/>
+  </xs:complexType>
+
+  <xs:complexType name="TextControl">
+    <xs:attribute name="width" use="required" type="xs:int"/>
+    <xs:attribute name="height" use="required" type="xs:int"/>
+    <xs:attribute name="x" type="xs:int" use="required"/>
+    <xs:attribute name="y" type="xs:int" use="required"/>
+    <xs:attribute name="fontName" use="required" type="xs:string"/>
+    <xs:attribute name="emSize" use="required" type="xs:double"/>
+    <xs:attribute name="textColor" use="required" type="xs:string"/>
+    <xs:attribute name="visible" type="xs:boolean" use="optional" default="true"/>
+  </xs:complexType>
+
+
+  <xs:complexType name="GraphicControl">
+    <xs:attribute name="width" type="xs:int" use="required"/>
+    <xs:attribute name="height" type="xs:int" use="required"/>
+    <xs:attribute name="x" type="xs:int" use="required"/>
+    <xs:attribute name="y" type="xs:int" use="required"/>
+    <xs:attribute name="innerColor" type="xs:string" use="required"/>
+    <xs:attribute name="border" type="xs:boolean" use="optional"/>
+    <xs:attribute name="borderColor" type="xs:string" use="optional"/>
+    <xs:attribute name="visible" type="xs:boolean" use="optional" default="true"/>
+  </xs:complexType>
+
+</xs:schema>

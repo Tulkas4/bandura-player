@@ -1,1 +1,16 @@
 ﻿Current project used as VIEW for Bandura desktop app
+RESOURCE NAMING:
+	[control name]_[state].[extension]
+	
+	tips: name should be in lower case
+
+	STATE NAME:
+		NONE = 0		//THIS STATE DEPRECATED!!!! USER DEFAULT STATE
+		DEFAULT = 1,
+		HOVER = 2,
+		PRESS = 3
+
+	EXAMPLE:
+		play_hover.png
+
+

@@ -28,6 +28,7 @@ namespace audio_module_test {
             if( tags != null ) { }
         }
 
+
         private void trackBar1_ValueChanged( object sender, EventArgs e ) {
             double val = player.TotalTime.TotalSeconds * 0.01d;         //1%
             var ts = TimeSpan.FromSeconds( val * this.trackBar1.Value );
