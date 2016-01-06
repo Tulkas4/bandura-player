@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <?schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3schools.com ../../Schemas/PlayerSchema.xsd" ?>
-<Player xmlns="http://tempuri.org/PlayerSchema.xsd" >
-  
+<Player xmlns="http://tempuri.org/PlayerSchema.xsd"  >
+  <Play  x="23" y="23"/>
 </Player>

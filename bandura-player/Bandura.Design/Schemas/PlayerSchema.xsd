@@ -31,14 +31,13 @@
       </xs:sequence>
       <xs:attribute name="x" type="xs:int" use="optional" default="0"/>
       <xs:attribute name="y" type="xs:int" use="optional" default="0"/>
-      <xs:attribute name="width" type="xs:int" use="optional" default="100"/>
-      <xs:attribute name="height" type="xs:int" use="optional" default="100"/>
+      <xs:attribute name="width" type="xs:int" use="required"/>
+      <xs:attribute name="height" type="xs:int" use="required"/>
       <xs:attribute name="visible" type="xs:boolean" use="optional" default="true"/>
       <xs:attribute name="roundAngle" type="xs:boolean" use="optional" default="false"/>
       <xs:attribute name="shadow" type="xs:boolean" use="optional" default="true"/>
     </xs:complexType>
   </xs:element>
-
 
   <xs:complexType name="ImageButtonControl">
     <xs:attribute name="x" type="xs:int" use="required"/>
@@ -57,7 +56,6 @@
     <xs:attribute name="textColor" use="required" type="xs:string"/>
     <xs:attribute name="visible" type="xs:boolean" use="optional" default="true"/>
   </xs:complexType>
-
 
   <xs:complexType name="GraphicControl">
     <xs:attribute name="width" type="xs:int" use="required"/>
