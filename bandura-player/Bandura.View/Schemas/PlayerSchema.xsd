@@ -27,7 +27,7 @@
         <xs:element name="Song" type="TextControl" maxOccurs="1" minOccurs="1"/>
         <xs:element name="Genre" type="TextControl" maxOccurs="1" minOccurs="1"/>
         <xs:element name="PlayTime" type="TextControl" maxOccurs="1" minOccurs="1"/>
-        <xs:element name="Title" type="TextControl" maxOccurs="1" minOccurs="1"/>
+        <xs:element name="Title" type="TextControl" maxOccurs="1" minOccurs="0"/>
       </xs:sequence>
       <xs:attribute name="x" type="xs:int" use="optional" default="0"/>
       <xs:attribute name="y" type="xs:int" use="optional" default="0"/>
@@ -42,6 +42,7 @@
   <xs:complexType name="ImageButtonControl">
     <xs:attribute name="x" type="xs:int" use="required"/>
     <xs:attribute name="y" type="xs:int" use="required"/>
+    <!--states: 1-as picture 2-toggle 3-button -->
     <xs:attribute name="states" type="xs:short" use="optional" default="3"/>
     <xs:attribute name="visible" type="xs:boolean" use="optional" default="true"/>
   </xs:complexType>

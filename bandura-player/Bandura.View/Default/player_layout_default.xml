@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3schools.com ../../Schemas/PlayerSchema.xsd" ?>
+<Player xmlns="http://tempuri.org/PlayerSchema.xsd"  >
+  <Play  x="23" y="23" states="3" visible="true"/>
+  <Pause x="10" y="10" states="3" visible="true"/>
+  <Stop x="10" y="10" states="3" visible="true"/>
+  <Next x="10" y="10" states="3" visible="true"/>
+  <Loop x="10" y="10" states="3" visible="true"/>
+  <Shuffle x="10" y="10" states="3" visible="true"/>
+  <Previous x="10" y="10" states="3" visible="true"/>
+  <Close x="10" y="10" states="3" visible="true"/>
+  <Hide x="10" y="10" states="3" visible="true"/>
+  <Pin x="10" y="10" states="3" visible="true"/>
+  <Settings x="10" y="10" states="3" visible="true"/>
+  <Progress x="10" y="10" height="" width="" border="" borderColor="" innerColor="" visible="true"/>
+  <Volume x="10" y="10" height="" width="" border="" borderColor="" innerColor="" visible="true"/>
+  <PictureTitle x="10" y="10" states="3" visible="true"/>
+  <Artist x="" y="" width="" height="" emSize="" fontName="" textColor="" visible="true"/>
+  <Song x="" y="" width="" height="" emSize="" fontName="" textColor="" visible="true"/>
+  <Genre  x="" y="" width="" height="" emSize="" fontName="" textColor="" visible="true"/>
+  <PlayTime  x="" y="" width="" height="" emSize="" fontName="" textColor="" visible="true"/>
+  <Title  x="" y="" width="" height="" emSize="" fontName="" textColor="" visible="false"/>
+</Player>

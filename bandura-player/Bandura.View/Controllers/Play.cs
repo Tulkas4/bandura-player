@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bandura.Design {
+namespace Bandura.Design.Controllers {
 
 
-    public sealed class ViewBuilder {
-
+    public sealed class Play {
 
     }
 }
